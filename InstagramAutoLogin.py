@@ -19,7 +19,7 @@ def logIn(username, password):
     clickButton("/html/body/div[4]/div/div/div/div[3]/button[2]", 2)
 
 
-driver = webdriver.Firefox(executable_path= r"C:\Users\daniel\PycharmProjects\SystemMonitor\geckodriver.exe")
+driver = webdriver.Firefox(executable_path= r"C:\Users\user\PycharmProjects\SystemMonitor\geckodriver.exe")
 driver.get(('https://www.instagram.com/instagram'))
 logIn("insert username here", "insert password here")
 sleep(2)
